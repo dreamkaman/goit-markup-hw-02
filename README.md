@@ -1,2 +1,1 @@
-# goit-markup-hw-02
-My homework #2
+Repository of my homeworks. GoIT Bootcamp 29.
