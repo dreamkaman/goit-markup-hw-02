@@ -1,0 +1,15 @@
+/* Main blue color */
+:root {
+  --main-blue: #2196f3;
+  --main-white: #ffffff;
+  --main-black: #212121;
+  --logo-black: #000000;
+  --main-gray: #757575;
+}
+
+.logo {
+  color: var(--main-blue);
+}
+
+/* font-family: 'Roboto', sans-serif; 
+font-family: 'Raleway', sans-serif;*/

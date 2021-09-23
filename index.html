@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">">
+
 </head>
 
 <body>
     <header>
-        <p><span>Web</span>Studio</p>
+        <a href="./index.html"> <span class="logo">Web</span>Studio</a>
         <nav>
-            <ul>
-                <li> <a href="./index.html">Студия</a></ul>
-                <li><a href="./portfolio.html"></a>Портфолио</li>
-                <li>Контакты</li>
+            <ul class="nav-list">
+                <li><a href="./index.html">Студия</a></li>
+                <li><a href="./portfolio.html">Портфолио</a></li>
+                <li><a href="">Контакты</a></li>
             </ul>
         </nav>
-        
-        <ul>
+
+        <ul class="contacts-list">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -27,10 +33,10 @@
 
     <main>
 
-        <div>
-            <h1>эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
-        </div>
+        <section class="hero">
+            <h1 class="hero-head">эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="hero-button">Заказать услугу</button>
+        </section>
 
         <section>
             <h2>Наши особенности</h2>
@@ -53,34 +59,34 @@
                 </li>
             </ul>
         </section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="./images/coding.jpeg" alt="Грамотний код" width="370"></li>
-                <li><img src="./images/mobileapp.jpeg" alt="Мобильные приложения" width="370"></li>
-                <li><img src="./images/design.jpeg" alt="Дизайн сайтов" width="370"></li>
-            </ul>
+        <h2>Чем мы занимаемся</h2>
+        <ul>
+            <li><img src="./images/coding.jpeg" alt="Грамотний код" width="370"></li>
+            <li><img src="./images/mobileapp.jpeg" alt="Мобильные приложения" width="370"></li>
+            <li><img src="./images/design.jpeg" alt="Дизайн сайтов" width="370"></li>
+        </ul>
 
         <section>
             <h2>Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/demianenko.jpeg" alt="Фото Игоря Демьяненко" width="270">
-                    <h4>Игорь Демьяненко</h4>
+                    <h3>Игорь Демьяненко</h3>
                     <p lang="En">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/repina.jpeg" alt="Фото Ольги Репниной" width="270">
-                    <h4>Ольга Репина</h4>
+                    <h3>Ольга Репина</h3>
                     <p lang="En">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/tarasov.jpeg" alt="Фото Николая Тарасова" width="270">
-                    <h4>Николай Тарасов</h4>
+                    <h3>Николай Тарасов</h3>
                     <p lang="En">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/ermakov.jpeg" alt="Фото Михаила Ермакова" width="270">
-                    <h4>Михаил Ермаков</h4>
+                    <h3>Михаил Ермаков</h3>
                     <p lang="En">UI Designer</p>
                 </li>
             </ul>
@@ -89,14 +95,15 @@
     </main>
 
     <footer>
-        <p><span>Web</span>Studio</p>
+        <a href="./index.html"><span>Web</span>Studio</a>
         <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
         </address>
     </footer>
 </body>
+
 </html>
