@@ -91,9 +91,38 @@ font-family: 'Raleway', sans-serif;*/
   text-align: center;
 }
 
-.features {
-  
+.features h2,
+.servises h2,
+.team h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
+
+.features ul {
+  list-style: none;
+}
+
+.features h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center; 
+
+}
+
+.features p {
+
+}
+
 
 .footer-text {
   color: var(--main-white);
