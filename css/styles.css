@@ -1,4 +1,4 @@
-/* share part of documents */
+/* --------------------------------shared styles of documents--------------------------------*/
 :root {
   --main-blue: #2196f3;
   --main-white: #ffffff;
@@ -6,16 +6,15 @@
   --logo-black: #000000;
   --main-gray: #757575;
   --background-sahara: #f5f4fa;
-  --background-black: #2F303A;
+  --background-black: #2f303a;
 }
 
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-black);
-  letter-spacing: 0.03em;
 }
 
-/* settings for index.html */
+/* --------------------------------settings for index.html -------------------------------------*/
 .header-text {
   list-style: none;
   text-decoration: none;
@@ -29,13 +28,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
 
   text-decoration: none;
 }
-
-/* font-family: 'Roboto', sans-serif; 
-font-family: 'Raleway', sans-serif;*/
 
 .logo span {
   color: var(--main-blue);
@@ -87,13 +83,15 @@ font-family: 'Raleway', sans-serif;*/
 
 .hero-button {
   background-color: var(--main-blue);
-  color: var(--main-white)
+  color: var(--main-white);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
+
+  cursor: pointer;
 }
 
 .features h2,
@@ -103,7 +101,7 @@ font-family: 'Raleway', sans-serif;*/
   font-style: normal;
   font-size: 36px;
   line-height: 1.17;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -116,19 +114,18 @@ font-family: 'Raleway', sans-serif;*/
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center; 
-
+  text-align: center;
 }
 
 .features p {
-font-weight: 400;
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-/* letter-spacing: 0.03em; */
-color: var(--main-gray);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-gray);
 }
 
 .servises ul {
@@ -140,7 +137,7 @@ color: var(--main-gray);
 }
 
 .team ul {
-list-style: none;
+  list-style: none;
 }
 
 .team h3 {
@@ -148,7 +145,7 @@ list-style: none;
   font-style: normal;
   font-size: 16px;
   line-height: 1.17;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -157,13 +154,16 @@ list-style: none;
   font-style: normal;
   font-size: 16px;
   line-height: 1.17;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--main-gray);
 }
 
 .footer-text {
-  color: var(--main-white); 
+  /* font-size: 14px;
+  line-height: 1.71; */
+
+  color: var(--main-white);
   background-color: var(--background-black);
 }
 
@@ -179,18 +179,18 @@ list-style: none;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
 }
 
 .footer-text a {
-   color: rgba(255,255,255,0.6);
-   font-weight: 400;
-   font-style: normal;
-   font-size: 14px;
-   line-height: 1.71;
-   /* letter-spacing: 0.03em; */
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .footer-contacts a:hover,
@@ -198,7 +198,7 @@ list-style: none;
   color: var(--main-blue);
 }
 
-/* settings for portfolio.html */
+/* ------------------------styles for portfolio.html -----------------------------------------*/
 
 .examples ul {
   list-style: none;
@@ -210,11 +210,12 @@ list-style: none;
   font-size: 16px;
   line-height: 1.62;
   /* text-align: center; */
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
 }
 
 .examples-filter button {
   background-color: var(--background-sahara);
+  cursor: pointer;
 }
 
 .examples-list h2 {
@@ -223,7 +224,6 @@ list-style: none;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
 }
 
 .examples-list p {
@@ -231,8 +231,7 @@ list-style: none;
   font-style: normal;
   font-size: 16px;
   line-height: 1.87;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
 
   color: var(--main-gray);
 }
-
