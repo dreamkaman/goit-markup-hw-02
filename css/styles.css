@@ -1,4 +1,4 @@
-/* --------------------------------shared styles of documents--------------------------------*/
+/* --------------------------------shared styles--------------------------------*/
 :root {
   --main-blue: #2196f3;
   --main-white: #ffffff;
@@ -12,6 +12,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-black);
+  letter-spacing: 0.03em;
 }
 
 /* --------------------------------settings for index.html -------------------------------------*/
@@ -28,7 +29,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 
   text-decoration: none;
 }
@@ -43,7 +43,6 @@ body {
 .nav-list a {
   color: var(--main-black);
   text-decoration: none;
-  list-style-type: none;
   letter-spacing: 0.02em;
 }
 
@@ -72,7 +71,6 @@ body {
 }
 
 .hero-text {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -89,19 +87,22 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  text-align: center;
 
   cursor: pointer;
+}
+
+.hero button:hover,
+.hero button:focus {
+  background-color: var(--background-sahara);
+  color: var(--main-blue);
 }
 
 .features h2,
 .servises h2,
 .team h2 {
   font-weight: 700;
-  font-style: normal;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -111,20 +112,15 @@ body {
 
 .features h3 {
   font-weight: 700;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
 }
 
 .features p {
-  font-weight: 400;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--main-gray);
 }
 
@@ -142,26 +138,21 @@ body {
 
 .team h3 {
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 
 .team p {
-  font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-align: center;
   color: var(--main-gray);
 }
 
 .footer-text {
-  /* font-size: 14px;
-  line-height: 1.71; */
+  font-size: 14px;
+  line-height: 1.71;
 
   color: var(--main-white);
   background-color: var(--background-black);
@@ -170,25 +161,17 @@ body {
 .footer-text .logo {
   color: var(--main-white);
 }
-.footer-text ul {
+.footer-contacts {
   list-style: none;
 }
 
 .footer-text p {
-  font-weight: 400;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
-.footer-text a {
+.footer-contacts a {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 
   text-decoration: none;
 }
@@ -206,32 +189,33 @@ body {
 
 .examples-filter {
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.62;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
+  text-align: center;
 }
 
-.examples-filter button {
+.button {
   background-color: var(--background-sahara);
+  color: var(--main-black);
   cursor: pointer;
+}
+
+.examples-filter button:hover,
+.examples-filter button:focus {
+  background-color: var(--main-blue);
+  color: var(--main-white);
 }
 
 .examples-list h2 {
   font-weight: 700;
-  font-style: normal;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .examples-list p {
-  font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 
   color: var(--main-gray);
 }
