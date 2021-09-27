@@ -17,6 +17,11 @@ body {
 
 /* --------------------------------settings for index.html -------------------------------------*/
 .header-text {
+  font-weight: 500;
+  /* font-style: normal; */
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
   list-style: none;
   text-decoration: none;
 }
@@ -25,9 +30,9 @@ body {
   color: var(--logo-black);
 
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
+  letter-spacing: 0.03em;
   line-height: 1.2;
 
   text-decoration: none;
@@ -80,14 +85,14 @@ body {
 }
 
 .hero-button {
-  background-color: var(--main-blue);
-  color: var(--main-white);
-  font-style: normal;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
 
+  color: var(--main-white);
+  background-color: var(--main-blue);
   cursor: pointer;
 }
 
@@ -194,7 +199,13 @@ body {
   text-align: center;
 }
 
-.button {
+.examples-filter button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
   background-color: var(--background-sahara);
   color: var(--main-black);
   cursor: pointer;
