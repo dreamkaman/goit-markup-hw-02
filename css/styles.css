@@ -15,6 +15,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.nav-list .current {
+  color: var(--main-blue);
+}
+
 /* --------------------------------settings for index.html -------------------------------------*/
 .header-text {
   font-weight: 500;
